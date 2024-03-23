@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover 5%;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: hsl(275, 100%, 97%);
+}
+
+section {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: .75rem;
+    background-color: white;
+}
+
+#FAQ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    justify-content: left;
+}
+
+#FAQ h1 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    color: hsl(292, 42%, 14%);
+}
+
+.textAndIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: .5rem;
+    color: hsl(292, 42%, 14%);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+}
+
+.textAndIcon p:hover {
+    color: rgb(173, 40, 235);
+    cursor: pointer;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+svg {
+    margin-top: 5px;
+}
+#questionOne {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.answerOne {
+    display: none;
+    padding: 1rem;
+    line-height: 1.4;
+    font-size: 14px;
+    color: hsl(292, 16%, 49%);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+}
+.answerTwo {
+    display: none;
+    padding: 1rem;
+    line-height: 1.4;
+    font-size: 14px;
+    color: hsl(292, 16%, 49%);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+}
+.answerThree {
+    display: none;
+    padding: 1rem;
+    line-height: 1.4;
+    font-size: 14px;
+    color: hsl(292, 16%, 49%);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+}
+.answerFour {
+    display: none;
+    padding: 1rem;
+    line-height: 1.4;
+    font-size: 14px;
+    color: hsl(292, 16%, 49%);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+}
+
+.minusOne {
+    display: none;
+}
+.minusTwo {
+    display: none;
+}
+
+.minusThree {
+    display: none;
+}
+
+.minusFour {
+    display: none;
+}
